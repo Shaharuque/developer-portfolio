@@ -1,0 +1,39 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Urbanist', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+
+}
+.name{
+    color:rgb(40, 82, 158);
+}
+
+section{
+    display: flex;  /*whole section ar content gula horizontal hoy*/
+
+}
+.half-width{
+    width: 50%;
+
+}
+.half-width img{
+    width: 80%; /*full image will be fitted in the given area*/
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(aqua,blue);
+    color: white;
+    font-weight: 700;
+    padding: 10px; /*The CSS padding properties are used to generate space around an element's content, inside of any defined borders.*/
+    border-radius: 5px;/*for making border round*/
+  
+}
