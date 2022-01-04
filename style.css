@@ -78,6 +78,18 @@ p{
     margin-right: 5%;
     box-shadow: 10px 10px 40px grey;
     border-radius: 10px;
+    
+}
+#exp-1{
+   /*border-left: 10px solid blueviolet;*/
+   border-left: 7px solid;
+    border-image: linear-gradient(rgb(119, 0, 255),rgb(247, 0, 255)) ;
+    border-image-slice: 1;
+}
+#exp-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(aqua,blue) ;
+    border-image-slice: 1;
 }
 .exp-tag{
     margin-left: 40px;
@@ -86,4 +98,8 @@ p{
     background-image: url('images/exp-bg.png');
     background-repeat: no-repeat;
     background-position: left;
+}
+#footer{
+    text-align: center;
+    margin-bottom: 20px;
 }
