@@ -8,18 +8,28 @@ body{
 
 h1{
     font-size: 40px;
+    color:rgb(99, 225, 230);
 
 }
+h2{
+    color:rgb(114, 159, 241);
+}
+p{
+    color: rgb(70, 157, 160);
+}
+
 .name{
     color:rgb(40, 82, 158);
 }
 
 section{
     display: flex;  /*whole section ar content gula horizontal hoy*/
-
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
+    margin-left:20px;
+    margin-top: 50px;
 
 }
 .half-width img{
@@ -36,4 +46,15 @@ section{
     padding: 10px; /*The CSS padding properties are used to generate space around an element's content, inside of any defined borders.*/
     border-radius: 5px;/*for making border round*/
   
+}
+
+.top-banner{ 
+    background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+    
+}
+
+.half-width-1{
+    margin-top: 200px;
+    width: 50%;
+
 }
